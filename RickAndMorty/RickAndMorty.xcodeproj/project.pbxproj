@@ -94,10 +94,11 @@
 		3B834EF72C54470D0051E6DB /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				3B834F242C544B620051E6DB /* Data */,
+				3B834F232C544B600051E6DB /* Domain */,
+				3B834F222C544B550051E6DB /* Presenter */,
+				3B834F252C544B670051E6DB /* Resources */,
 				3B834EF82C54470D0051E6DB /* RickAndMortyApp.swift */,
-				3B834EFA2C54470D0051E6DB /* ContentView.swift */,
-				3B834EFC2C54470E0051E6DB /* Assets.xcassets */,
-				3B834EFE2C54470E0051E6DB /* Preview Content */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -125,6 +126,37 @@
 				3B834F152C54470F0051E6DB /* RickAndMortyUITestsLaunchTests.swift */,
 			);
 			path = RickAndMortyUITests;
+			sourceTree = "<group>";
+		};
+		3B834F222C544B550051E6DB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3B834EFA2C54470D0051E6DB /* ContentView.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3B834F232C544B600051E6DB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3B834F242C544B620051E6DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3B834F252C544B670051E6DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B834EFC2C54470E0051E6DB /* Assets.xcassets */,
+				3B834EFE2C54470E0051E6DB /* Preview Content */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
